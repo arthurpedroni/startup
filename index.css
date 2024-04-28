@@ -1,0 +1,9 @@
+#imagePreview {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin: 20px auto; /* centraliza o contêiner horizontalmente */
+    background-size: cover;
+    background-position: center; /* centraliza a imagem dentro do contêiner */
+}
