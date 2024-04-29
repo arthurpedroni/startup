@@ -73,6 +73,10 @@ img{
     padding: 5%;
     text-align: center;
 }
+
+.time p{
+    font-size: 20px;
+}
 .time img{
     height: 15%;
     width: 15%;
