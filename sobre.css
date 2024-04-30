@@ -24,13 +24,10 @@ nav a:hover {
 .right-links {
     float: right;
 }
-.page{
-    display: flex;
-}
 
 .text{
     padding: 5%;
-    max-width: 60%;
+    max-width: 70%;
     text-align: justify;
     margin-left: -30%;
 }
@@ -39,11 +36,10 @@ ul{
     font-size: 20px;
 }
 
-.locate{
-    text-align: right;
-    padding-right: 0;
+.page{
+    display: flex;
 }
 
-iframe{
-    padding-right: 0;
+.locate{
+    padding: 5% 5%;
 }
