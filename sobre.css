@@ -26,8 +26,8 @@ nav a:hover {
 }
 
 .text{
-    padding: 5%;
-    max-width: 70%;
+    padding: 5% 5% 0 5%;
+    max-width: 80%;
     text-align: justify;
     margin-left: -30%;
 }
@@ -42,4 +42,9 @@ ul{
 
 .locate{
     padding: 5% 5%;
+}
+
+.mesage{
+    text-align: center;
+    margin: auto;
 }
