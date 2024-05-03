@@ -13,9 +13,7 @@ nav a {
     text-align: justify;
     margin: 0 10px;
 }
-nav a:hover {
-    text-decoration: underline;
-}
+
 .left-links {
     float: left;
 }
@@ -23,6 +21,27 @@ nav a:hover {
 .right-links {
     float: right;
 }
+
+.funciona,.sobre{
+    cursor: pointer;
+    transition: background-color 0.5s, border-color 0.5s, font-size 0.5s;
+}
+
+.funciona:hover,.sobre:hover{
+    font-size: 137%;
+    color: white;
+}
+
+.criar,.entrar{
+    cursor: pointer;
+    transition: background-color 0.5s, border-color 0.5s, font-size 0.5s;
+}
+
+.criar:hover,.entrar:hover{
+    font-size: 137%;
+    color: white;
+}
+
 .container{
     display: flex;
     margin: 10%;
