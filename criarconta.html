@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="criarconta.css">
+    <script src="criarconta.js"></script>
     <title>Entrar</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
         </div>
     </nav>
     <div class="formulario">
-        <form action="processar_cadastro.php" method="POST">
+        <form id="signup-form" method="POST">
             <h2>Criar Conta</h2>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -41,7 +42,7 @@
             <label for="confirmar_senha">Confirmar Senha:</label>
             <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Confirme sua senha" required>
             
-            <input type="submit" value="Criar Conta">
+            <input type="submit" value="Criar Conta" onclick=salvarDadosUsuario()>
         </form>
     </div>
     </body>
