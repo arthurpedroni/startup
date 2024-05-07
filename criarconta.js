@@ -30,7 +30,7 @@ function salvarDadosUsuario() {
     alert("Dados salvos com sucesso!");
     
     // Vai para outra pagina
-    window.location.href = "index.html";
+    window.location.href = "inicio.html";
     return true;
 }
 
