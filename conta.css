@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #fotoInput {
+    display: none;
+  }
+  label {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #imagemPreview {
+    padding: 7% 30%;
+    display: flex
+  }
+  #imagemPreview img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Transforma a imagem em círculo */
+    object-fit: cover; /* Evita que a imagem seja distorcida */
+  }

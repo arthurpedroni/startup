@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="conta.css">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Escolha uma Foto</h1>
+  <form action="#" method="post" enctype="multipart/form-data">
+    <label for="fotoInput">Selecionar Foto</label>
+    <input type="file" name="foto" id="fotoInput" accept="image/*" onchange="previewImage(event)">
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="imagemPreview"></div>
+
+</body>
+</html>
