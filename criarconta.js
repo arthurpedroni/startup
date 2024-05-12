@@ -1,5 +1,5 @@
 function salvarDadosUsuario() {
-    console.log("ta funcionando")
+    
     // Obter valores do formulário
     var nome = document.getElementById("nome").value;
     var email = document.getElementById("email").value;
