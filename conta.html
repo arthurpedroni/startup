@@ -8,12 +8,20 @@
     <title>Conta</title>
 </head>
 <body>
-  <h1>Escolha uma Foto</h1>
+  <h1 id="msg"></h1>
   <form action="#" method="post" enctype="multipart/form-data">
-    <label for="fotoInput">Selecionar Foto</label>
-    <input type="file" name="foto" id="fotoInput" accept="image/*" onchange="previewImage(event)">
     <div id="imagemPreview" class="foto">
       <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" alt="conta">
+      <ul>
+        <li id="name">Nome: </li>
+        <li id="data"></li>
+        <li id="cpf"></li>
+        <li id="email"></li>
+      </ul>
+    </div>
+    <div class="text">
+      <label for="fotoInput">Alterar foto</label>
+      <input type="file" name="foto" id="fotoInput" accept="image/*" onchange="previewImage(event)">
     </div>
   </form>
   <div id="imagemPreview"></div>

@@ -1,40 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#ffde59,#ff914d);
     margin: 0;
+    padding: 10%;
     padding: 20px;
-  }
-  h1 {
-    text-align: center;
-  }
-  form {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  #fotoInput {
-    display: none;
-  }
-  label {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  button[type="submit"] {
-    background-color: #2ecc71;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #imagemPreview, .foto img {
-    padding: 7%;
-    display: flex;
-  }
-  #imagemPreview img, .foto img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; /* Transforma a imagem em círculo */
-    object-fit: cover; /* Evita que a imagem seja distorcida */
-  }
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#fotoInput {
+  display: none;
+}
+
+.text{
+  text-align: left;
+  padding-left: 30%; 
+}
+
+label {
+  background-color: linear-gradient(to right,#ffde59,#ff914d);
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+label:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.foto{
+  display: flex;
+}
+ul{
+  padding: 5% 0;
+  font-size: 24px;
+}
+
+li{
+  padding: 5% 0;  
+}
+
+#imagemPreview, .foto img {
+  padding: 7% 15% 2% 15%;
+  display: flex;
+}
+
+#imagemPreview img, .foto img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Transforma a imagem em círculo */
+  object-fit: cover; /* Evita que a imagem seja distorcida */
+}
