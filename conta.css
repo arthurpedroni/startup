@@ -29,8 +29,8 @@ body {
     cursor: pointer;
   }
   #imagemPreview, .foto img {
-    padding: 7% 30%;
-    display: flex
+    padding: 7%;
+    display: flex;
   }
   #imagemPreview img, .foto img {
     width: 300px;
