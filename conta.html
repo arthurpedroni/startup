@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" href="conta.css">
-    <title>Document</title>
+    <title>Conta</title>
 </head>
 <body>
   <h1>Escolha uma Foto</h1>
   <form action="#" method="post" enctype="multipart/form-data">
     <label for="fotoInput">Selecionar Foto</label>
     <input type="file" name="foto" id="fotoInput" accept="image/*" onchange="previewImage(event)">
-    <button type="submit">Enviar</button>
+    <div id="imagemPreview" class="foto">
+      <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" alt="conta">
+    </div>
   </form>
   <div id="imagemPreview"></div>
-
 </body>
 </html>

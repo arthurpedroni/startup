@@ -28,11 +28,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  #imagemPreview {
+  #imagemPreview, .foto img {
     padding: 7% 30%;
     display: flex
   }
-  #imagemPreview img {
+  #imagemPreview img, .foto img {
     width: 300px;
     height: 300px;
     border-radius: 50%; /* Transforma a imagem em círculo */
