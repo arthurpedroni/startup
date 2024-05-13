@@ -29,7 +29,7 @@ function salvarDadosUsuario() {
         localStorage.setItem("data_nascimento", data_nascimento);
         localStorage.setItem("senha", senha);
         alert("Dados salvos com sucesso!");
-        window.location.href = "inicio.html";
+        window.location.href = "index.html";
     }
         else{
             alert("Você precisa preencher todos os campos!")
